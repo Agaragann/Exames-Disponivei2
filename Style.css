@@ -1,0 +1,304 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+.faixa {
+    /* Essa faixa fica acima do cabeçalho */
+    /* É aquela faixa azul com telefone e link(botão) "Agende sua consulta" */
+    align-items: center;
+    background-color: #031D38;
+    display: flex;
+    font-family: var(--texto);
+    font-weight: 600;
+    font-size: 20px;
+    height: 50px;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.faixa p {
+    color: white;
+}
+
+.faixa a {
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    color: #160041;
+    display: flex;
+    font-size: 16px;
+    height: 30px;
+    justify-content: center;
+    margin-left: 80px;
+    margin-right: 3%;
+    text-decoration: none;
+    text-align: center;
+    min-width: 185px;
+    max-width: 208px;
+}
+
+.cabecalho__container {
+    align-items: center;
+    background-color: white;
+    color: #160041;
+    display: flex;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: var(--titulo);
+    height: 100px;
+    justify-content: space-between;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.logo__cabecalho {
+    height: 85px;
+    margin-left: 3%;
+    min-width: 150px;
+    max-width: 235px;
+}
+
+.cabecalho__menu {
+    display: flex;
+}
+
+.cabecalho__menu__lista {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    width: 900px;
+}
+
+.cabecalho__menu__lista li {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cabecalho__menu__lista a {
+    align-items: center;
+    display: flex;
+    color: #160041;
+    text-decoration: none;
+}
+
+.cabecalho__link__login {
+    align-items: center;
+    background: #160041;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    margin: 0 3%;
+    text-decoration: none;
+    width: 138px;
+}
+
+@media screen and (max-width: 425px) {
+    .faixa {
+        font-size: 16px;
+        justify-content: space-evenly;
+    }
+
+    .faixa a {
+        margin: 0;
+    }
+}
+
+
+
+
+.Imagem--width {
+  width: 100%;
+  height: 300px;
+}
+
+/* img {
+  width: 100%;
+  height: 50%;
+
+} */
+
+main{
+    margin: 10%;
+}
+
+.titulo{
+  display: flex;
+  justify-content: center;
+  font-size:20px;
+  padding: 50px;
+
+
+
+
+}
+
+h1{
+  font-size:300%;
+  color:white;
+  background-color: #5CA5B5;
+  border: 1px;
+  border-radius: 10px;
+  border-color: black;
+  padding: 20px;
+
+
+
+}
+
+.card-container {
+    display: grid;
+    gap: 20px;
+    row-gap: 40px;
+    grid-template-columns: auto auto auto auto; 
+    height: 570px;
+}
+  
+.cards {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    background-color: white;
+
+}
+
+@media screen and (max-width: 780px) {
+  .cards-container{
+    display: grid;
+    gap: 20px;
+    row-gap: 40px;
+    grid-template-columns: 400px 400px 400px 400px; 
+    height: 500px; 
+  }
+
+  .cards{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid rgba(0, 0, 0,);
+    border-radius: 20px;
+    background-color: white;
+  }   
+  }
+
+p{
+    padding: 10%;
+    text-align: center;
+    font-size: 20px;
+}
+
+h2{
+    border-bottom: 10px;
+    font-size: 25px;
+    background-color: #B8DCE2;
+    margin: 0;
+    width: 100%;
+    height: 75px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    margin: 0%;
+    padding: 0%;
+    margin-top: 30%;
+}
+
+.rodape__container {
+    /* Aqui defini o tamanho geral do rodapé e a cor do fundo */
+    background-color: #031D38;
+    /* height: 250px; */
+    width: 100%;
+  }
+  
+  .rodape {
+    /* Aqui seria onde ficam todos os elementos do rodapé */
+    align-items: center;
+    display: flex;
+    /* height: 250px; */
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  
+  .logo__rodape {
+    width: 230px;
+    margin-bottom: 20px;
+    /* height: 80px; */
+  }
+  
+  .texto__rodape {
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  
+  #contato img {
+    height: 30px;
+    margin: 16px;
+    width: 30px;
+  }
+  
+  #redes__links {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  #redes-sociais img {
+    height: 40px;
+    margin: 10px;
+    width: 40px;
+  }
+  
+  #contato li, a {
+    align-items: center;
+    display: flex;
+  }
+  
+  #titulo__redes {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 20px 0;
+  }
+  
+  #info-dev {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  
+  #info-dev__texto {
+    padding: 0 0 20px 0;
+  }
+  
+  #logo-time {
+    border-radius: 20px;
+    height: 80px;
+    width: 200px;
+  }
+
+  .container {
+    padding: 60px;
+    height: 790px;
+    background-image: url(img/Group\ 379.png);
+  }
+
+footer {
+    margin-top: 0
+}
